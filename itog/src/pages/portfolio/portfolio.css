@@ -19,8 +19,6 @@
 
 .text { 
     justify-content: auto;
-    width: 100%;
-    height: 100px;
     color: pink;
     align-items: left;
     position: absolute;
