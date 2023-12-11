@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './pages/App';
+import Main from './pages/Main.js';
 import Header from './pages/header/header.js'
 import Footer from './pages/footer/footer.js';
 import Contacts from './pages/contacts/contacts.js';
@@ -16,7 +16,7 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Main />,
   },
   {
     path: "/portfolio",
